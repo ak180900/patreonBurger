@@ -125,7 +125,7 @@ const PaymentPage = ({ username }) => {
                 key: currentUser?.razrpayId,
                 amount: amount,
                 currency: "INR",
-                name: "Get-Me-A-Chai",
+                name: "Get-Me-A-Burger",
                 description: "Test Transaction",
                 image: `${process.env.NEXT_PUBLIC_URL}/icons/tea.gif`,
                 order_id: orderId,

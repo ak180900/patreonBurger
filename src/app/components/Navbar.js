@@ -18,8 +18,7 @@ const Navbar = () => {
   return (
     <nav className=' bg-gray-900 text-white flex justify-between items-center px-4 md:h-16 flex-col md:flex-row'>
       <Link href={'/'} className='logo font-bold flex items-center justify-center'>
-        <img src="icons/tea.gif" width={44} alt="" />
-        <span className='md:text-xl text-2xl'>GetMeAChai!</span>
+        <span className='md:text-xl text-2xl'>Get-Me-A-Burger</span>
       </Link>
 
       <div className='relative'>
